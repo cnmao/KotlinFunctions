@@ -4,6 +4,8 @@ fun main() {
     println("lamde运行结果是$temp")
 }
 
+
+
 fun updateDirty(dirty: Int, operation: (Int) -> Int): Int {
     return operation(dirty)
 }
